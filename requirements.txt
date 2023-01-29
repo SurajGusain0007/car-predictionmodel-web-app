@@ -1,7 +1,6 @@
+sklearn~=0.0
+numpy
+scikit-learn~=1.0.2
+pillow=9.0.1
 sklearn
-numpy~=1.24.1
-scikit-learn
-Pillow~=9.4.0
-pandas
-sklearn
-streamlit~=1.17.0
+streamlit
