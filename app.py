@@ -3,7 +3,6 @@ import pandas as pd
 import pickle
 import numpy as np
 
-
 pipe = pickle.load(open('modelllli.pkl', 'rb'))
 
 dff = pickle.load(open('dff.pkl', 'rb'))
@@ -12,7 +11,6 @@ st.title("Car Price Predictor Model")
 st.write("This app predicts the price of a car you want to sell.Please fill the details below.")
 
 from PIL import Image
-
 
 company = st.selectbox('Select the Company', dff['company'].unique())
 name = st.selectbox('Select the model', dff['name'].unique())
@@ -30,7 +28,7 @@ def add_logo(logo_path, width, height):
 
 
 my_logo = add_logo(logo_path="pic.jpeg", width=500, height=500)
-st.sidebar.image(my_logo,"This app predicts the price of a car you want to sell")
+st.sidebar.image(my_logo, "This app predicts the price of a car you want to sell")
 
 if st.button('Predict Price'):
     query = np.array([name, company, year, kms_driven, fuel_type])
