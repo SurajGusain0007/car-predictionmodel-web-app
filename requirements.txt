@@ -1,5 +1,5 @@
-pandas~=1.5.3
-streamlit~=1.17.0
-numpy~=1.24.1
+pandas
+streamlit
+numpy
 sklearn
-Pillow~=9.4.0
+Pillow
