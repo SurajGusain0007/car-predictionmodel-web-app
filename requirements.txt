@@ -1,6 +1,7 @@
 sklearn
-numpy
+numpy~=1.24.1
 scikit-learn
-Pillow
+Pillow~=9.4.0
 pandas
 sklearn
+streamlit~=1.17.0

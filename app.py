@@ -5,7 +5,7 @@ import numpy as np
 
 pipe = pickle.load(open('modelllli.pkl', 'rb'))
 
-dff = pickle.load(open('dff.pkl', 'rb'))
+dff = pickle.load(open('dfff.pkl', 'rb'))
 
 st.title("Car Price Predictor Model")
 st.write("This app predicts the price of a car you want to sell.Please fill the details below.")
