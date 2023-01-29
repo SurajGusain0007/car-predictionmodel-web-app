@@ -1,4 +1,4 @@
 sklearn
 numpy
-streamlit
+scikit-learn
 Pillow
