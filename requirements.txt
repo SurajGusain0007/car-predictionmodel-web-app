@@ -1,4 +1,4 @@
-sklearn
+sklearn==0.0.post1
 numpy
 scikit-learn==1.0.2
 pillow
