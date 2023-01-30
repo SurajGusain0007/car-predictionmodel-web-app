@@ -2,7 +2,7 @@ import streamlit as st
 
 import pickle
 import numpy as np
-
+import sklearn
 pipe = pickle.load(open('modelllli.pkl', 'rb'))
 
 dff = pickle.load(open('dfff.pkl', 'rb'))
