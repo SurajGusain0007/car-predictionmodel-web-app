@@ -1,5 +1,5 @@
-sklearn==0.0.post1
+sklearn
 numpy
-scikit-learn==1.0.2
+scikit-learnpi
 pillow
 streamlit
