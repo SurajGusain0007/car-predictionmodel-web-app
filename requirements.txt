@@ -1,5 +1,5 @@
 sklearn
 numpy
-scikit-learn~=1.0.2
-pillow=9.0.1
+scikit-learn==1.0.2
+pillow
 streamlit
