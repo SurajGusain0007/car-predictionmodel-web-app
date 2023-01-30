@@ -1,5 +1,5 @@
 sklearn
 numpy
-scikit-learnpi
+scikit-learn
 pillow
 streamlit
